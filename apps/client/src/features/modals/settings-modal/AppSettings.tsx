@@ -82,6 +82,14 @@ export default function AppSettingsModal() {
         />
       </ModalSplitInput>
       <ModalSplitInput
+        field='Time Code'
+        title='Time value for SMPTE'
+        description='Inupt start time'
+        error={errors.editorKey?.message}
+      >
+        <ModalPinInput register={register} formName='timeCodeKey' isDisabled={disableInputs} />
+      </ModalSplitInput>
+      <ModalSplitInput
         field='editorKey'
         title='Editor pin code'
         description='Protect the editor with a pin code'
