@@ -46,7 +46,7 @@ export default function Backstage(props: BackstageProps) {
 
   // Set window title
   useEffect(() => {
-    document.title = 'ontime - Backstage Screen';
+    document.title = 'Emerge Church Christmas Production';
   }, []);
 
   // blink on change

@@ -9,7 +9,7 @@
   height: 100vh;
 
   font-family: var(--font-family-override, $viewer-font-family);
-  background: var(--background-color-override, $viewer-background-color);
+  background: #365fc9;
   color: var(--color-override, $viewer-color);
   gap: min(2vh, 16px);
   padding: min(2vh, 16px) clamp(16px, 10vw, 64px);
